@@ -161,8 +161,14 @@ GET /workflows?limit=10
 - Build a simple frontend dashboard<img width="1919" height="1010" alt="Screenshot 2025-12-16 181421" src="https://github.com/user-attachments/assets/42d89f1d-c428-415d-a599-6344efb13e25" />
 
 ### Screenshots
+
+- Running the Collector File
 <img width="1919" height="1004" alt="Screenshot 2025-12-16 181406" src="https://github.com/user-attachments/assets/62b200dc-84ef-42b2-a348-d97407e63433" />
+- Testing the Scripts
 <img width="1339" height="446" alt="Screenshot 2025-12-16 181018" src="https://github.com/user-attachments/assets/86e2ef0e-3f18-4de6-841f-72e1f57a82a8" />
+- Using Swagger UI to display n8n Workflows
 <img width="1915" height="952" alt="Screenshot 2025-12-16 181714" src="https://github.com/user-attachments/assets/1ba85eb3-e5c4-42ef-9d8a-ed5e065a7725" />
-<img width="1918" height="948" alt="Screenshot 2025-12-16 181645" src="https://github.com/user-attachments/assets/86d4c928-f77b-4af4-816e-52e66034401f" />
+- Display Workflows in JSON
+<img width="1918" height="948" alt="Screenshot 2025-12-16 181645" src="[https://github.com/user-attachments/assets/86d4c928-f77b-4af4-816e-52e66034401f](https://github.com/user-attachments/assets/86d4c928-f77b-4af4-816e-52e66034401f)" />
+- Verifying that The Api Requests are Fetched
 <img width="1915" height="948" alt="Screenshot 2025-12-16 181550" src="https://github.com/user-attachments/assets/c26f49bf-c515-41ec-a89f-f412a454e60a" />
