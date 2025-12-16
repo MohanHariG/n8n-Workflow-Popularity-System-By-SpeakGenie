@@ -159,8 +159,6 @@ GET /workflows?limit=10
 - Add ranking score across platforms
 - Add scheduled automation (cron / GitHub Actions)
 - Build a simple frontend dashboard
--
-- <img width="1919" height="1010" alt="Screenshot 2025-12-16 181421" src="https://github.com/user-attachments/assets/42d89f1d-c428-415d-a599-6344efb13e25" />
 
 ### Screenshots
 
