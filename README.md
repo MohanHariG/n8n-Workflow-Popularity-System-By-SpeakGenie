@@ -25,8 +25,11 @@ The system was built as part of the **SpeakGenie AI/Tech Internship Technical As
 
 ## 🏗️ System Architecture
 YouTube API ──┐
+
 ├── Collectors ──> MySQL ──> FastAPI ──> JSON API
+
 Forum API ───┘
+
 - **Collectors** fetch data from external sources
 - **Database** stores normalized workflow data
 - **API** exposes popularity insights for consumers
@@ -35,19 +38,33 @@ Forum API ───┘
 
 ## 📂 Project Structure
 speakgenie/
+
 ├── api/
+
 │ ├── main.py # FastAPI app
+
 │ └── models.py # Database models
+
 ├── collectors/
+
 │ ├── youtube_collector.py
+
 │ ├── discourse_collector.py
+
 │ └── trends_collector.py
+
 ├── scripts/
+
 │ └── run_all_collectors.py
+
 ├── db.py
+
 ├── create_tables.py
+
 ├── test_fetch.py
+
 ├── requirements.txt
+
 └── .env
 
 ---
@@ -132,16 +149,16 @@ GET /workflows?limit=10
 }
 
 ### 🧠 Design Decisions
-# Engagement ratios are used instead of raw views to avoid popularity bias
-# Region-based data (US / IN) is stored separately
-# Collector failures do not stop the pipeline (graceful error handling)
-# API is kept lightweight and extensible
+- Engagement ratios are used instead of raw views to avoid popularity bias
+- Region-based data (US / IN) is stored separately
+- Collector failures do not stop the pipeline (graceful error handling)
+- API is kept lightweight and extensible
 
 ### 🚧 Future Improvements
-# Enable Google Trends with caching
-# Add ranking score across platforms
-# Add scheduled automation (cron / GitHub Actions)
-# Build a simple frontend dashboard<img width="1919" height="1010" alt="Screenshot 2025-12-16 181421" src="https://github.com/user-attachments/assets/42d89f1d-c428-415d-a599-6344efb13e25" />
+- Enable Google Trends with caching
+- Add ranking score across platforms
+- Add scheduled automation (cron / GitHub Actions)
+- Build a simple frontend dashboard<img width="1919" height="1010" alt="Screenshot 2025-12-16 181421" src="https://github.com/user-attachments/assets/42d89f1d-c428-415d-a599-6344efb13e25" />
 
 ### Screenshots
 <img width="1919" height="1004" alt="Screenshot 2025-12-16 181406" src="https://github.com/user-attachments/assets/62b200dc-84ef-42b2-a348-d97407e63433" />
